@@ -1,0 +1,6 @@
+Ниже представлен пример простейшей программы на языке Java,результатом работы которой является вывод на консоль фразы Hello, world.Ниже представлен пример простейшей программы на языке Java, результатом работы которой является вывод на консоль фразы Hello, world.
+public class HelloWorld{
+	public static void main(String[] args){
+		System.out.println("Hello, world!");
+	}
+}

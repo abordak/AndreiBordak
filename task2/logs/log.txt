@@ -1,0 +1,11 @@
+14.08.2014 07:17:24 [main] ERROR by.epam.task2.parser.TextParser  - Incorrect property file path
+java.io.FileNotFoundException: property\regx.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at by.epam.task2.parser.TextParser.<clinit>(TextParser.java:23)
+	at by.epam.task2.main.Main.main(Main.java:20)
+14.08.2014 11:20:19 [main] ERROR by.epam.task2.main.Main  - Illegal Argument
+java.lang.IllegalArgumentException
+	at by.epam.task2.logic.Logic.replaceWordToSubstring(Logic.java:16)
+	at by.epam.task2.main.Main.main(Main.java:30)
